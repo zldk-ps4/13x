@@ -1,5 +1,10 @@
 CACHE MANIFEST
-# rev 20260922-aio-fix
+# rev 20260922-console-theme-josefin-v1
+theme.css
+fonts/JosefinSans-Regular.ttf
+fonts/JosefinSans-Medium.ttf
+fonts/JosefinSans-SemiBold.ttf
+fonts/JosefinSans-Bold.ttf
 
 index.html #4898a1249458a4e1baaff5480a92810db010bdf538cdb8f7a58715805166f65c
 jb.html #921121960e9b3a909ad4b435c01d7d03b54c62ea8afe63066daec4ffb042c545
