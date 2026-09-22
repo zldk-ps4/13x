@@ -281,6 +281,15 @@ body.landing #wrap,body.log #wrap{
   background:linear-gradient(145deg,rgba(7,24,48,.94),rgba(18,12,42,.94) 58%,rgba(6,31,24,.92));
   box-shadow:0 25px 65px rgba(0,0,0,.42),inset 0 1px 0 rgba(205,237,255,.1);
 }
+/* Landing layout matches the original host; cache messages stay inside the card. */
+body.landing #wrap{width:900px;max-width:100%;margin:0 auto;min-height:190px;padding:31px 36px 29px}
+body.landing #state{margin:0;color:#f6f9ff}
+body.landing #state.warn{color:#f6f9ff}
+body.landing #det{font-size:15px;margin:0;line-height:1.25}
+body.landing #cache:empty{display:none}
+body.landing .start-jailbreak-btn:focus{outline:2px solid #d7f3ff;outline-offset:5px}
+@media(max-height:760px){body.landing #wrap{min-height:165px;padding:24px 30px}}
+@media(max-width:900px){body.landing #wrap{min-height:170px;padding:24px 23px}}
 body.landing #wrap:before,body.log #wrap:before{
   content:"";position:absolute;left:18px;right:18px;top:0;height:1px;
   background:linear-gradient(90deg,transparent,#e60012 18%,#008cff 39%,#8064ff 61%,#20b85a 82%,transparent);
